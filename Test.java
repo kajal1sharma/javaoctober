@@ -1,6 +1,6 @@
 class Test{
 
-       static int factorial( int n){
+        static int factorial2( int n){
 
                 //3! = 3*2*1
                 //4! = 4*3*2*1
@@ -13,16 +13,44 @@ class Test{
                 return factResult;
 
         }
-        public static void main(String[] args) {
-                String str ="strig 1";
-                String str2 ="string 2";
-                int num =2;
-                String str3 = str+str2+num;
+
+       static int factorial( int n){
+
+                //3! = 3*2*1
+                //4! = 4*3*2*1
+                //0!= 1
+
+                int factResult = 1;// right part of assignment operator (=) will run first 
+                for (int i=n ; i>=1; i--){
+                        System.out.print(i+" * ");//"1 * "
+                        factResult= factResult*i;
+
+                }
+                
+                return factResult;
 
                 
-                int n=3;
+                //factResult =1 *3 =3*2=6 *1=6
+                // n=3
+                // i =3 ; i>=1(true)  i=2
+                // i=2  ; i>=1(true)   i=1
+                //i=1 ; i>=1(true)
+                //output 
+                //3 * 2 * 1 *
+
+        }
+         
+        public static void main(String[] args) {
+                // String str ="strig 1";
+                // String str2 ="string 2";
+                // int num =2;
+                // String str3 = str+str2+num;
+
+                
+                 int n=3;
                 //this value of n will come from user 
-               int result =  factorial(n);
+                
+               int result =  Test.factorial(n);//jvm =>search a fucntion factorial inside Test class
                System.out.println("factorial result is  " + result );
         }
 }
