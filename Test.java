@@ -29,14 +29,6 @@ class Test{
                 
                 return factResult;
 
-                
-                //factResult =1 *3 =3*2=6 *1=6
-                // n=3
-                // i =3 ; i>=1(true)  i=2
-                // i=2  ; i>=1(true)   i=1
-                //i=1 ; i>=1(true)
-                //output 
-                //3 * 2 * 1 *
 
         }
          
