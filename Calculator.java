@@ -34,8 +34,6 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        
-        
         Scanner sc = new Scanner(System.in);
 
         int ch;
@@ -51,8 +49,6 @@ public class Calculator {
             }
             //lines of code .... will be ignored by continue
         }
-
-
        System.out.println("Thank you !!");    
     }
 }
