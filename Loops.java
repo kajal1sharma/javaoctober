@@ -14,11 +14,27 @@ public class Loops {
        }
         
     }
+
+    static void pattern1(){
+        
+        //number of rows
+        for (int i=1;i<= 5;i++){
+            for(int j =0;j<=5-i;j++){
+
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
+
+
+        pattern1();
+
 //java strongly typed language
 
-        boolean result =doPrint();
-        System.out.println(result);
+        // boolean result =doPrint();
+        // System.out.println(result);
 
 
 
@@ -57,7 +73,7 @@ public class Loops {
     //     System.out.println(odd);
     //     i++;
     // }
-
+ 
     // i =1;
     // while(i<12){
     //     System.out.println(i);
