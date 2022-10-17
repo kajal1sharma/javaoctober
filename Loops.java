@@ -41,6 +41,10 @@ public class Loops {
     }
     public static void main(String[] args) {
 
+
+
+        
+
         int number =10;
         int octalnumber = 0234;
         int hexnumber =0x23fcd;
