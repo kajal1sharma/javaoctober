@@ -1,3 +1,5 @@
+import java.util.regex.Pattern;
+
 public class Loops {
 
 
@@ -26,10 +28,34 @@ public class Loops {
             System.out.println();
         }
     }
+
+    static void  pattern2_2(){
+
+        for(int i=0;i<5;i++){
+            char ch =(char)('A'+i);//typecasting
+            for(int j=0;j<5-i; j++){
+                System.out.print(ch+" "+(int)(ch));
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
 
+        int number =10;
+        int octalnumber = 0234;
+        int hexnumber =0x23fcd;
+        char ch = 012;
+        float num= 3.4e22f;
+        char ch2 ='\uface';//16bits (4 4 4 4)(0,1 , 2, 3,4 ,5,6,7,8,9,A,B,C,D,E,F)
 
-        pattern1();
+        //System.out.println(octalnumber+"  "+ hexnumber);
+        System.out.println(num);
+        String str="hello world";
+        float f= 14.5f;
+
+
+        //pattern2_2();
+        //pattern1();
 
 //java strongly typed language
 
@@ -110,6 +136,13 @@ Ques=> print this pattern
 # # #
 # # 
 #  
+
+Ques 2.2
+A A A A A 
+B B B B
+C C C
+D D
+E
 
 
 Ques 3
