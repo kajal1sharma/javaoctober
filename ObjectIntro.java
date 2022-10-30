@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 class Test{
@@ -34,6 +35,47 @@ public class ObjectIntro{
 
 // import java.util.Scanner;
 // public class ObjectIntro {
+// public static void main(String[] args) {
+    
+//         int arr2[] = new int[5];
+
+//         int arrNew[][][] =new int[3][3][4];
+//         //int arrNew2[][][] =new int[3][3][4];
+        
+//         for(int i=0 ;   i<3 ;i++){
+//             for(int j=0;j<3; j++)
+//             {for(int k = 0; k<3; k++){
+//                 arrNew[i][j][k] = 4;
+//             }
+//         }
+//     }
+//         //sum
+//         int sum =0;
+//         for(int i=0 ;   i<3 ;i++){
+//             for(int j=0;j<3; j++)
+//             {
+//                 for(int k = 0; k<3; k++){
+//                // System.out.println("sum of m3d matrix"+arrNew[i][j][k]);
+//                 // int sum=0;
+//                 // sum=arrNew[i][j][k]+arrNew[i][j][k];
+//                 sum = sum + arrNew[i][j][k];
+//                 }
+
+//             }
+//         }
+
+//         System.out.println(sum);
+// //current output =>108 
+// //answer => 144
+// //?? what is the problem 
+// //Ques =>  2 d matrix => row wise sum
+// //Ques => 2 d matrix => col wise product
+
+
+//     }
+// }
+
+
 // public static void main(String[] args) {
     
 //         int arr2[] = new int[5];
