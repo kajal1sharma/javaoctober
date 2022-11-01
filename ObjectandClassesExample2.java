@@ -41,3 +41,7 @@ class ObjectandClassesExample2{
     
     }
 }
+
+// create new class => teacher 
+//properties => name , age , salary, dob, subject
+//methods => printInfo, gubjectTaught
