@@ -1,3 +1,4 @@
+
 class Car{
     String color;
     int maxSpeed;
@@ -27,3 +28,7 @@ public class ObjClassesEx3 {
         System.out.println("color of the car is "+obj1.color);
     }
 }
+//make a default constructor for student class
+//student class in which prop =>{name , standard , rollno, marks } method=>{printInfo}
+//printInfo() call object creation 
+//printInfo() call object prop reassignment
