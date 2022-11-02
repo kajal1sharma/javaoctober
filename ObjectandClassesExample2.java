@@ -5,7 +5,7 @@ class teacher {
     String dob;
     String salary;
     String subject;
-  
+  //method
     void getsubjectTaught(){
         System.out.println("subject taught by teacher:"+subject);
     }
@@ -53,6 +53,16 @@ class ObjectandClassesExample2{
         // ref2.standard="3rd";
         // ref2.dateOfBirth="13/08/12";
         // ref2.printInfo();
+
+
+        String str =new String();
+
+
+        Student st = new Student();
+        st.name ="tina";
+        st.dateOfBirth="31/12/12";
+        st.rollnumber=34;
+        st.standard="6th";
 
         teacher ref= new teacher();
         ref.teachername="neeta";
