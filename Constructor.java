@@ -45,6 +45,7 @@ public class Constructor {
         //parameterized constructor
         //int carWeight, String carColor, boolean wantAirBags
         Car c2 =new Car(120,"pink", true  );
+        // Car c2 =new Car(120,"pink", true  );
         c2.getInfo();
     }
 }
