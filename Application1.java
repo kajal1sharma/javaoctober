@@ -123,14 +123,49 @@ class Student{
     }
 }
 
+class Car{
+    static String company="Tata motors";
+    String color=null;
+    int height=0;
+    int weight=0;
+    Car(){
+        this(90, 80);
+        color="white";
+        height=900;
+        weight=800;
+    }
+    Car(int height , int weight){//Car(int , int)
+
+    }
+
+    // Car(int eheight2, int weight2){//Car(int , int)
+
+    // }
+
+    Car(String usercolor){
+        // this(12 , 12);
+        
+        this();//Car();
+        this.color=usercolor;
+    }
+
+} 
+
 public class Application1 {
     public static void main(String[] args) {
         
-        System.out.print(" Welcome to MIT University ");
-        System.out.println("Enter your Details");
-        Student st =new Student();
-        st.enterInfo();
-        st.showInfo();
+        Car car2= new Car();
+        Car car3 =new Car("red");//{color=red, height=0,weight=0}
+        Car car4 =new Car();
+       //car2.height
+        System.out.println(Car.company);//static variables /function => class level entities=> call them with class name
+
+
+        // System.out.print(" Welcome to MIT University ");
+        // System.out.println("Enter your Details");
+        // Student st =new Student();
+        // st.enterInfo();
+        // st.showInfo();
         
     }
 }
