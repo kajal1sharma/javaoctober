@@ -15,8 +15,10 @@ class Complex{
         System.out.println("x = "+this.real+" + i"+this.img);
     }
     void add(Complex x , Complex y){
+        
         this.real= x.real+y.real;
         this.img = x.img +y.img;
+        
     }
 
    static Complex addComplex(Complex x , Complex y){

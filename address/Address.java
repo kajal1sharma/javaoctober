@@ -6,11 +6,12 @@ public class Address{
     protected String city;
     String state;
     public String pincode;
-    
-    Address(){
+
+    public Address(){
         houseNo=90;
         city="pune";
         state="mh";
         pincode="909090";
     }
 }
+
