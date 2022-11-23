@@ -6,6 +6,7 @@ public class Address{
     protected String city;
     String state;
     public String pincode;
+    
     Address(){
         houseNo=90;
         city="pune";

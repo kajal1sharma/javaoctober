@@ -1,6 +1,6 @@
 package student;
 
-import address.Address;
+import address.*;
 
 class Student extends Address {
     int rollno;
