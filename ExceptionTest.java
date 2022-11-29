@@ -1,34 +1,32 @@
 import java.util.Scanner;
 
+
 class ExceptionTest{
 
     static void doSomething(){
         System.out.println("this is line 2");
-        doSomethingMore();
+        try{
+            doSomethingMore();
+        }
+        catch(Exception e){
+            System.out.println(e);
+        }
         System.out.println("this is line 6");
 
     }
-
     static void doSomethingMore(){
         System.out.println("this is line 3");
-        // try{
-        //     int a=90/0;
-        // }
-        // catch(Exception e){
-        //     int a=90/8;
-        // }
         
+            int num= 90/0;
             doEvenMore();
             System.out.println("this is line 7");
     }
-
     static void doEvenMore(){int a;
         System.out.println("this is line 4");
     }
-
     public static void main(String[] args) {
         System.out.println("this is line 1");
-        doSomething();
+        doSomething(); 
         System.out.println("this is line 5");
     }
 }
