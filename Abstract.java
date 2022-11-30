@@ -1,5 +1,5 @@
 import java.sql.PseudoColumnUsage;
-
+import com.course.structure.App;
 abstract class Person{
 //cannit create object of this class
     String name;
