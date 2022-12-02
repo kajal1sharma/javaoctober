@@ -39,12 +39,33 @@ public class ExceptionHandling {
     public static void main(String[] args) {
          //try catch finally 
          //exception => call stack (noraml )=> exception obj
-            Student st =new Student();
-            try{
-            st.setRollno(-90);
+            // Student st =new Student();
+            // try{
+            // st.setRollno(-90);
+            // }
+            // catch(Exception e){
+            //     System.out.print(e);
+            // }
+
+            String str="askksa";
+            boolean flag=true;
+            for(int i =0, j=str.length()-1;i<str.length()/2;i++, j--){
+                if(str.charAt(i)==str.charAt(j)){
+                    continue;
+                }
+                else{
+                 
+                    flag= false;
+                    break;
+                }
             }
-            catch(Exception e){
-                System.out.print(e);
+
+            if(flag==true){
+
+                System.out.println("it is a plaindrome");
+            }
+            else{
+                System.out.print("not a palindrome");
             }
     }
 }
